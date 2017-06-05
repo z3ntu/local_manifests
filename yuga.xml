@@ -1,0 +1,13 @@
+<manifest>
+   
+  <remote name="github"
+        fetch="http://github.com"
+        revision="refs/heads/cm-12.1" />
+ 
+  <project path="device/sony/common" name="cyanogenmod/android_device_sony_common" revision="cm-12.1" remote="github" />
+  <project path="device/sony/fusion3-common" name="cyanogenmod/android_device_sony_fusion3-common" revision="cm-12.1" remote="github" />
+  <project path="device/qcom/sepolicy" name="cyanogenmod/android_device_qcom_sepolicy" revision="cm-12.1" remote="github" />
+  <project path="device/sony/yuga" name="cyanogenmod/android_device_sony_yuga" revision="cm-12.1" remote="github" />
+  <project path="kernel/sony/apq8064" name="cyanogenmod/android_kernel_sony_apq8064" revision="cm-12.1" remote="github" />
+  <project path="vendor/sony" name="TheMuppets/proprietary_vendor_sony" revision="cm-12.1" remote="github" />
+</manifest>
