@@ -1,0 +1,6 @@
+<manifest>
+  <project path="device/qcom/common" name="android_device_qcom_common" remote="cm" />
+  <project path="device/fairphone/FP2" name="peat-psuwit/android_device_fairphone_fp2" revision="halium-5.1" remote="ubp" />
+  <project path="kernel/fairphone/FP2" name="peat-psuwit/android_kernel_fairphone_fp2" revision="halium-5.1" remote="ubp" />
+  <project path="vendor/fairphone" name="ab2ut/proprietary_vendor_fairphone" revision="ubp-5.1" remote="ubp" />
+</manifest>
